@@ -1,0 +1,10 @@
+*.pyc
+*venv*/
+*__pycache__*
+some_tests.py
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/lodgify-internal-service-platform.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/workspace.xml

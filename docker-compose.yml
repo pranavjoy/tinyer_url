@@ -1,0 +1,23 @@
+version: '3'
+services:
+    tinier_url:
+        image: pranavjoy/tinier_url:latest
+        container_name: tinier_url
+        ports:
+            - "5000:5000"
+        depends_on:
+            - mongo
+        networks:
+            - tinynet
+
+    mongo:
+        image: mongo:latest
+        container_name: mongodb
+        ports:
+          - "27017:27017"
+        networks:
+          - tinynet
+
+networks:
+    tinynet:
+        driver: bridge

@@ -1,0 +1,123 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+.circle {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #2cd5c4;
+    border-radius: 45px;
+    color: white;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    transform: translate(45px, -70%);
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 30px;
+    font-family: "Helvetica";
+    display: inline-block;
+    top: 52%;
+    right: 30px;
+    transform: translate(50%, -54%)
+}
+
+.text {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+    top: 2px;
+    right: 80px;
+    transform: translate(48%, -15%)
+}
+
+body {
+    padding-right: 0 !important;
+}
+
+#searchInput {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    order: 5;
+}
+
+#searchInputXEN {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 70%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#logoContainer {
+    width: 10%;
+    height: 105px;
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    width: 35em;
+    transform: translate(-32%, -40%);
+}
+
+#amoeba1 {
+    position: absolute;
+    width: 500px;
+    transform: translate(230%, -10%);
+
+}
+
+#amoeba2 {
+    position: absolute;
+    width: 500px;
+    transform: translate(-80%, 60%);
+
+}
+
+#amoeba3 {
+    position: absolute;
+    width: 500px;
+    transform: translate(230%, 170%);
+
+}
+
+#amoeba4 {
+    position: absolute;
+    width: 500px;
+    transform: translate(-80%, 280%);
+}
+
+
+#amoeba5 {
+    position: absolute;
+    width: 500px;
+    transform: translate(230%, 360%);
+}
