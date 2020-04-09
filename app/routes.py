@@ -10,7 +10,7 @@ import urllib.request
 from flask import Flask, flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 
-mongo = PyMongo(app, uri="mongodb://localhost:27017/data")
+mongo = PyMongo(app, uri="mongodb://mongodb:27017/data")
 
 
 def url_short(url):

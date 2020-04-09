@@ -19,4 +19,4 @@ ENV LC_ALL C.UTF-8
 
 COPY . /app
 
-CMD flask run
+CMD flask run --host='0.0.0.0'
