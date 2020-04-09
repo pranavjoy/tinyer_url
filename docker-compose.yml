@@ -4,7 +4,7 @@ services:
         image: pranavjoy/tinier_url:latest
         container_name: tinier_url
         ports:
-            - "5000:5000"
+            - "80:5000"
         depends_on:
             - mongo
         networks:
